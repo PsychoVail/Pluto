@@ -19,7 +19,7 @@ __________ __          __   _______          ________
 --]]
 
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Horizon89002/PLUT0_V3/refs/heads/main/orionmodified.lua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/PsychoVail/Pluto/refs/heads/main/orionmodified.lua')))()
 
 
 local Window = OrionLib:MakeWindow({
@@ -4595,7 +4595,7 @@ contTab:AddButton({
 
 
         local success, err = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Horizon89002/PLUT0_V3/main/altcontrol.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/PsychoVail/Pluto/refs/heads/main/altcontrol.lua"))()
         end)
 
         
@@ -4747,3 +4747,4 @@ mainTab:AddButton({
 })
 
 OrionLib:Init()
+
